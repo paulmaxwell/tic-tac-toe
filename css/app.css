@@ -1,0 +1,122 @@
+/* ==============================
+ * PLUGINS & THIRD PARTY STYLES
+ * ============================== */
+/* ==============================
+ * BASE STYLES
+ * ============================== */
+/* COMMON.SASS */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: linear-gradient(45deg, #8377d1 1%, #5efc8d 100%); }
+
+.container {
+  height: 100vh;
+  width: 760px;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center; }
+
+header {
+  padding: 5%; }
+
+section {
+  height: 398.188px; }
+
+footer {
+  padding: 5%; }
+  footer a {
+    text-decoration: none;
+    transition: color 0.3s ease; }
+  footer a:hover {
+    color: #5EFC8D; }
+
+/* TYPOGRAPHY.SASS */
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: white; }
+
+p, a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: white; }
+
+/* NAV.SASS */
+/* FOOTER.SASS */
+/* ==============================
+ * LAYOUT STYLES
+ * ============================== */
+/* HOME.SASS */
+/* ==============================
+ * MODULE STYLES
+ * ============================== */
+section {
+  display: flex;
+  align-items: center; }
+
+.game-board {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 5%; }
+  .game-board .row {
+    display: flex; }
+  .game-board .col {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer; }
+  .game-board h2 {
+    font-size: 3em; }
+
+.border-all {
+  border: 1px solid white; }
+
+.border-left-right {
+  border-left: 1px solid white;
+  border-right: 1px solid white; }
+
+.border-top-bottom {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; }
+
+.display-none {
+  display: none; }
+
+/* GAME-MODAL */
+.player-select div {
+  margin: auto;
+  text-align: center; }
+.player-select div h2 {
+  display: inline-block;
+  margin: 15px 25px;
+  font-size: 3em;
+  cursor: pointer; }
+
+.result h2 {
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.btn h2 {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 70px;
+  padding: 5px 0px; }
+
+.btn h2 {
+  cursor: pointer;
+  transition: all 0.3s ease; }
+
+.btn h2:hover {
+  background: white;
+  color: #93BEDF; }
+
+/*# sourceMappingURL=app.css.map */

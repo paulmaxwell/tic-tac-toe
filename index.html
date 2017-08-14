@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/app.css">
+
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200|Open+Sans:300" rel="stylesheet">
+
+	<!-- JAVASCRIPT -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+	
+	<header>
+		<h1>Tic Tac Toe</h1>
+	</header>
+
+	<section>
+		<div class="game-board display-none">
+			<div class="row">
+				<div class="col" id="box1"><h2 id="position1"></h2></div>
+				<div class="col border-left-right" id="box2"><h2 id="position2"></h2></div>
+				<div class="col" id="box3"><h2 id="position3"></h2></div>
+			</div>
+			
+			<div class="row">
+				<div class="col border-top-bottom" id="box4"><h2 id="position4"></h2></div>
+				<div class="col border-all" id="box5"><h2 id="position5"></h2></div>
+				<div class="col border-top-bottom" id="box6"><h2 id="position6"></h2></div>
+			</div>
+
+			<div class="row">
+				<div class="col" id="box7"><h2 id="position7"></h2></div>
+				<div class="col border-left-right" id="box8"><h2 id="position8"></h2></div>
+				<div class="col" id="box9"><h2 id="position9"></h2></div>
+			</div>			
+		</div><!-- end game -->
+		
+
+		<div class="player-select">
+			<h2>Would you like to play as X or O?</h2>
+			<div>
+				<h2 id="xSelect">X</h2>
+				<h2 id="oSelect">O</h2>
+			</div>
+		</div><!-- end team-select -->
+
+		<div class="result display-none">
+			<h2 id="resultMessage">Congratulations, you won!</h2>
+			<div class="btn" id="resetBtn"><h2>OK</h2></div>
+		</div><!-- end result -->
+	</section>
+
+	<footer><p>code by <a href="http://www.paulmaxwell.co.uk" target="_blank">Paul Maxwell</a></p></footer>
+
+</div><!-- end container -->
+
+</body>
+</html>
